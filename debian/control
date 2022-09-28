@@ -1,0 +1,26 @@
+Source: docopt
+Section: python
+Priority: optional
+Maintainer: Agustin Henze <tin@debian.org>
+Build-Depends: debhelper-compat (= 13),
+ python3-all,
+ python3-setuptools,
+ dh-python,
+ dh-sequence-python2,
+ dh-sequence-python3
+Standards-Version: 4.6.0
+Homepage: http://docopt.org
+Rules-Requires-Root: no
+Vcs-Git: https://salsa.debian.org/debian/docopt.git
+Vcs-Browser: https://salsa.debian.org/debian/docopt
+
+Package: python3-docopt
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: command-line interface description language (Python3)
+ docopt helps you define an interface for your command-line app and
+ automatically generate a parser for it. Its interface descriptions are
+ based on a formalization of the standard conventions used in help
+ messages and man pages.
+ .
+ This is the Python 3 compatible version of the package.

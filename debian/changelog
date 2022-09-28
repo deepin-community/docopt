@@ -1,0 +1,75 @@
+docopt (0.6.2-4) unstable; urgency=medium
+
+  * Team upload.
+  * debian/watch: update to the new GitHub layout
+  * Standards-Version: 4.6.0 (routine-update)
+  * debhelper-compat 13 (routine-update)
+  * Rules-Requires-Root: no (routine-update)
+  * watch file standard 4 (routine-update)
+  * debian/tests/run_control renamed to run-control in accordance with the
+    rules
+
+ -- Michael R. Crusoe <crusoe@debian.org>  Sun, 07 Nov 2021 17:12:09 +0100
+
+docopt (0.6.2-3) unstable; urgency=medium
+
+  * Team upload.
+  * debian/patches/pytest6: adapt to work with previous Pytest versions, to
+    ease migration to testing.
+
+ -- Michael R. Crusoe <crusoe@debian.org>  Sat, 23 Jan 2021 17:42:37 +0100
+
+docopt (0.6.2-2.3) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * debian/patches/pytest6: fix FTBFS with Pytest 6. Closes: #979285
+  * debian/control: add explicit build-deps on the dh-addons used.
+
+ -- Michael R. Crusoe <crusoe@debian.org>  Sat, 23 Jan 2021 13:21:57 +0100
+
+docopt (0.6.2-2.2) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Drop python2 support; Closes: #936433
+
+ -- Sandro Tosi <morph@debian.org>  Tue, 31 Dec 2019 14:44:57 -0500
+
+docopt (0.6.2-2.1) unstable; urgency=medium
+
+  [ Matthias Klose ]
+  * Don't run the Python2 autopkg tests. python-schema is gone.
+
+  [ Ondřej Nový ]
+  * d/copyright: Use https protocol in Format field
+
+  [ Michael R. Crusoe ]
+  * debian/patches/pytest6: fix FTBFS with Pytest 6. Closes: #979285
+
+ -- Ondřej Nový <onovy@debian.org>  Mon, 01 Oct 2018 09:41:53 +0200
+
+docopt (0.6.2-2) unstable; urgency=medium
+
+  * [d/control] Remove obsolete X-Python-Version
+  * Bumped Standards-Version to 4.2.0 (no changes needed)
+  * Update Vcs-* fields pointing to salsa
+  * Update dh to 11
+  * [d/rules] Use variables defined on pkg-info.mk
+  * Add (autopkg)tests
+
+ -- Agustin Henze <tin@debian.org>  Fri, 17 Aug 2018 16:16:51 +0200
+
+docopt (0.6.2-1) unstable; urgency=medium
+
+  * Use uscan in get-orig target
+  * Imported Upstream version 0.6.2
+  * Improve package description thanks to Justin B Rye (Closes: #725710)
+  * Bumped Standard-Version to 3.9.5 (no changes required)
+  * Use pybuild as buildsystem
+
+ -- Agustin Henze <tin@debian.org>  Tue, 24 Jun 2014 09:14:44 -0300
+
+docopt (0.6.1-1) unstable; urgency=low
+
+  * Initial release. (Closes: #722935)
+
+ -- Agustin Henze <tin@debian.org>  Sat, 14 Sep 2013 17:33:36 -0300
