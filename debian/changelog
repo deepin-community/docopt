@@ -1,3 +1,26 @@
+docopt (0.6.2-6) unstable; urgency=medium
+
+  * Team upload.
+  * Fix autopkgtest regression with pytest 8 (Closes: #1063955)
+
+ -- Timo Röhling <roehling@debian.org>  Tue, 27 Feb 2024 10:20:29 +0100
+
+docopt (0.6.2-5) unstable; urgency=medium
+
+  * Team upload
+  * Move to team maintenance (though cannot physically move repository on
+    salsa)
+  * Fix syntax errors in regexps (Closes: #1063485)
+
+ -- Julian Gilbey <jdg@debian.org>  Fri, 09 Feb 2024 06:22:42 +0000
+
+docopt (0.6.2-4.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * d/control: drop unused dep on dh-sequence-python3. Closes: #1025837
+
+ -- Michael R. Crusoe <crusoe@debian.org>  Wed, 21 Dec 2022 12:57:23 +0100
+
 docopt (0.6.2-4) unstable; urgency=medium
 
   * Team upload.

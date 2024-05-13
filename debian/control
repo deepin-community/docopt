@@ -1,14 +1,14 @@
 Source: docopt
 Section: python
 Priority: optional
-Maintainer: Agustin Henze <tin@debian.org>
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Agustin Henze <tin@debian.org>
 Build-Depends: debhelper-compat (= 13),
  python3-all,
  python3-setuptools,
  dh-python,
- dh-sequence-python2,
  dh-sequence-python3
-Standards-Version: 4.6.0
+Standards-Version: 4.6.2
 Homepage: http://docopt.org
 Rules-Requires-Root: no
 Vcs-Git: https://salsa.debian.org/debian/docopt.git
